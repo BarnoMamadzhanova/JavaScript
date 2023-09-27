@@ -25,9 +25,16 @@
 // Intermediate Exercise 3
 
 // let fruits = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+// let fArray = fruits.split("/");
+// document.write(fArray.join( '<br>'));
 
-// const fArray = fruits.split("/");
+// console.log(fArray.join(" \n "));
+// let fArray1 = fArray.split('');
+// console.log(fArray);
 // document.write(`${fArray[0]} <br> ${fArray[1]} <br> ${fArray[2]} <br> ${fArray[3]} <br> ${fArray[4]} <br> ${fArray[5]} <br> ${fArray[6]} <br> ${fArray[7]}`);
+// console.log(fArray.join(" \n "));
+
+
 
 // Advanced Exercise 1
 
@@ -122,8 +129,8 @@
 
 // Challenge
 
-let string = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
-let arr = new Array();
-arr = string.split('$');
-console.log(arr);
-console.log(arr.join(' '));
+// let string = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
+// let arr = new Array();
+// arr = string.split('$');
+// console.log(arr);
+// console.log(arr.join(' '));
