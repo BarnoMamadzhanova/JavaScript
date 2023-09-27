@@ -94,6 +94,7 @@
 // let people = ["Matt", "Greg", "Mary", "Devon","James"];
 // console.log(people.slice(1,5));
 
+
 // 6.     Using the indexOf method, find the index of where "Mary" is located.
 
 // let people = ["Greg", "Mary", "Devon","James"];
